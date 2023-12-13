@@ -35,6 +35,6 @@ class tempViewController: UIViewController {
     }
     
     func mul(a: Int, b: Int) -> Int {
-        return a*b
+        return a*b // div
     }
 }
