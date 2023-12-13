@@ -41,4 +41,20 @@ class tempViewController: UIViewController {
     func div(a: Int, b: Int) -> Int {
         return a/b
     }
+    
+    func add(a: Float, b: Float) -> Float {
+        return a+b
+    }
+    
+    func sub(a: Float, b: Float) -> Float {
+        return a-b
+    }
+    
+    func mul(a: Float, b: Float) -> Float {
+        return a*b
+    }
+    
+    func div(a: Float, b: Float) -> Float {
+        return a/b
+    }
 }
