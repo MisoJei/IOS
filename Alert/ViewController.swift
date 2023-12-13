@@ -82,8 +82,6 @@ class ViewController: UIViewController {
         if isLampOn {
             let lampOffAlert = UIAlertController(title: "램프 끄기", message: "램프를 끄시겠습니까?", preferredStyle: UIAlertController.Style.alert)
             let offAction = UIAlertAction(title: "네", style: UIAlertAction.Style.default, handler: {
-                // 익명 함수, 클로저
-                // 컴파일러가 반환타입, 매개변수의 타입을 알 수 있는 경우 생략 가능
                 ACTION in
                 self.lampImg.image = self.imgOff
                 self.isLampOn = false
